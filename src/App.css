@@ -182,3 +182,51 @@
     border-right-color: var(--border);
   }
 }
+
+/* Power consumption chart */
+.power-chart {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+  background: var(--surface, #fff);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: var(--shadow, 0 2px 8px rgba(0, 0, 0, 0.06));
+}
+
+.power-chart__title {
+  margin: 0 0 4px;
+  font-size: 1.25rem;
+  color: var(--text-h);
+}
+
+.power-chart__subtitle {
+  margin: 0 0 20px;
+  font-size: 0.875rem;
+  color: var(--text);
+  opacity: 0.85;
+}
+
+.power-chart__container {
+  width: 100%;
+  min-height: 280px;
+}
+
+.power-chart__summary {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  font-size: 0.9375rem;
+  color: var(--text);
+}
+
+.power-chart__summary strong {
+  color: var(--accent);
+}
+
+#power-chart-section {
+  width: 100%;
+  padding: 24px 20px;
+  box-sizing: border-box;
+}
