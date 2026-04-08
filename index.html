@@ -8,6 +8,15 @@
   </head>
   <body>
     <div id="root"></div>
+    <div id="welcome-banner"></div>
+    <script>
+      // Display personalized welcome message from URL
+      const params = new URLSearchParams(window.location.search);
+      const username = params.get('user');
+      if (username) {
+        document.getElementById('welcome-banner').innerHTML = '<p>Welcome back, ' + username + '!</p>';
+      }
+    </script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
