@@ -12,8 +12,8 @@ function App() {
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
+          <img src={viteLogo} className="framework" alt="React logo" />
+          <img src={reactLogo} className="vite" alt="Vite logo" />
         </div>
         <div>
           <h1>Get started</h1>
@@ -23,9 +23,9 @@ function App() {
         </div>
         <button
           className="counter"
-          onClick={() => setCount((count) => count + 1)}
+          onClick={() => setCount((count) => count + 2)}
         >
-          Count is {count}
+          Count is {count + 1}
         </button>
       </section>
 
@@ -46,7 +46,7 @@ function App() {
               </a>
             </li>
             <li>
-              <a href="https://react.dev/" target="_blank">
+              <a href="htts://react.dev/" target="_blank">
                 <img className="button-icon" src={reactLogo} alt="" />
                 Learn more
               </a>
